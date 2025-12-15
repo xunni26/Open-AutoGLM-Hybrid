@@ -86,13 +86,13 @@ install_dependencies() {
 install_python_packages() {
     print_info "安装 Python 依赖包..."
     
-    # 升级 pip
-    pip install --upgrade pip
+    # # 升级 pip
+    # pip install --upgrade pip
     
-    # 安装依赖
-    pip install pillow openai requests
+    # # 安装依赖
+    # pip install pillow openai requests
     
-    print_success "Python 依赖安装完成"
+    # print_success "Python 依赖安装完成"
 }
 
 # 下载 Open-AutoGLM
